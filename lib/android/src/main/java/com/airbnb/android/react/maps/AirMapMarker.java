@@ -645,7 +645,7 @@ public class AirMapMarker extends AirMapFeature {
   }
 
   private static void DrawText(Canvas canvas, String text, Context context, int color, int size, int yOffset) {
-    Typeface plain = Typeface.create(Typeface.createFromAsset(context.getAssets(), "Macho.otf"), Typeface.NORMAL); 
+    Typeface plain = Typeface.create(Typeface.createFromAsset(context.getAssets(), "Calibri.ttf"), Typeface.NORMAL); 
 
     TextPaint paint = new TextPaint(TextPaint.ANTI_ALIAS_FLAG);
     paint.setTypeface(plain);
